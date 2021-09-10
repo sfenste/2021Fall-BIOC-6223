@@ -1,0 +1,23 @@
+[
+	{
+		"name": "BRCA1",
+		"length": 20,
+		"accession": "HW808243"
+	}, {
+		"name": "IFNA17",
+		"length": 753,
+		"accession": "M38289"
+	}, {
+		"name": "CALCA",
+		"length": 982,
+		"accession": "NM_001033953"
+	}, {
+		"name": "INSIG1",
+		"length": 2908,
+		"accession": "NM_005542"
+	}, {
+		"name": "GTF3A",
+		"length": 1443,
+		"accession": "NM_002097"
+	}
+]
