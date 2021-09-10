@@ -1,0 +1,35 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://raw.githubusercontent.com/xuanzou98/2021Fall-BIOC-6223/main/WEEK%201%20HW_XuanZou%20JSON%20schema.json",
+	"type": "array",
+	"title": "SARS-CoV-2",
+	"description": "5 genes on SARS-CoV-2 sequence",
+	"required": [
+		"name",
+		"length in bp",
+		"accession number"
+	],
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "the name of the gene on SARS-CoV-2 sequence",
+			"example": [
+				"Chain A, Frameshift Stimulation Element from the SARS-CoV-2 RNA Genome"
+			]
+		},
+		"length_in_bp": {
+			"type": "number",
+			"description": "the length of the gene",
+			"examples": [
+				"88"
+			]
+		},
+		"Accession number": {
+			"type": "string",
+			"description": "the accession number of the gene",
+			"example": [
+				"6XRZ_A"
+			]
+		}
+	}
+}

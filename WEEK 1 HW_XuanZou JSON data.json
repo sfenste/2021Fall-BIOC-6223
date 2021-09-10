@@ -1,0 +1,21 @@
+[{
+		"name": "Chain A, Frameshift Stimulation Element from the SARS - CoV - 2 RNA Genome",
+		"length in bp": "88",
+		"accession number": "6XRZ_A"
+	}, {
+		"name": "Chain AH, mRNA containing SARS - CoV - 2 sequence",
+		"length in bp": "217",
+		"accession number": "7O81_AH"
+	}, {
+		"name": "Chain L, Architecture of a SARS - CoV - 2 mini replication and transcription complex",
+		"length in bp": "6",
+		"accession number": "7CXN_L"
+	}, {
+		"name": "Chain P, Dimeric form of SARS - CoV - 2 RNA - dependent RNA polymerase",
+		"length in bp": "15",
+		"accession number": "7OYG_P"
+	}, {
+		"name": "Chain J, Cryo - EM structure of the tetrameric form of SARS - CoV - 2 nsp10 - nsp14(E191A) - RNA complex",
+		"length in bp": "5",
+		"accession number": "7N0D_J"
+	}]
