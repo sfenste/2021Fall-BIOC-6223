@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/bmohamud/homework1/main/schema%202",
+  "type": "array",
+  "title": "Five genes from NCBI nucleotide database",
+  "description": "Pick five genes from the database and identify the name, base pair number and accession number",
+  "required": [
+    "gene name",
+    "base pair number",
+    "accession number"
+  ],
+  "properties":{
+  	"gene name":{
+    	"type": "object",
+        "description": "list of gene names found in NCBI nucleotide database",
+        "items": {
+        	"type": "string",
+            "description": "name of genes one through five",
+            "examples": [
+                  "BRCA 1",
+                  "EGFR",
+                  "p53",
+                  "FGFR3",
+                  "CFD"
+  ],
+  "properties":{
+    "base pair number":{	
+    	"type": "array",
+        "description": "list of base pair numbers for each gene found in NCBI nucleotide database",
+        "items":{
+        	"type": "string",
+            "description": "base pair numbers for genes one through five",
+            "examples": [
+            	193689,
+                9104,
+                10518,
+                525,
+                1212
+  ],
+  "properties":{
+  	"accession number":{
+    	"type": "array",
+        "description": "list of accession numbers for each gene found in NCBI nucleotide database",
+        "items":{
+        	"type": "string",
+            "description": "accession number for genes one through five",
+            "examples": [
+            	"NG_005905",
+                "NM_001346941",
+                "NM_001355001 XM_017022533",
+                "AF238374",
+                "NM_001317335"
+              ],
+        },
+        },
+    },
+  },
+        },
+    },
+  },
+        },
+    },
+  }
