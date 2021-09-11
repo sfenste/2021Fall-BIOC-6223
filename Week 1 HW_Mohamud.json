@@ -1,0 +1,27 @@
+[
+    {
+      "gene name":"BRCA1",
+      "base pair length":193689,
+      "accession number":"NG_005905"
+    },
+    {
+      "gene name":"EGFR",
+      "base pair length":9104,
+      "accession number":"NM_001346941"
+    },
+    {
+      "gene name": "p53",
+      "base pair length": 10518,
+      "accession number": "NM_001355001 XM_017022533"
+    },
+    {
+      "gene name": "FGFR3",
+      "base pair length": 525,
+      "accession number": "AF238374"
+    },
+    {
+      "gene name": "CFD",
+      "base pair length": 1212,
+      "accession number": "NM_001317335"
+    },
+]
