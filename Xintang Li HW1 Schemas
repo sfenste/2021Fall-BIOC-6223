@@ -1,0 +1,35 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"$id": "https://raw.githubusercontent.com/lxt302/2021Fall-BIOC-6223/main/Xintang%20Li%20HW1%20Schemas",
+"type": "object",
+"title": "5 genes related to cancer immune therapy",
+"description": "The name, length in bp and accession number of 5 genes that can be used as a bio-target in cancer therapy"
+"required": ["name",
+             "length in bp",
+             "accession number"
+],
+"properties": {
+          "name": {
+             "type": "string",
+             "description": "The name of the gene",
+             "example": [
+                  "Felis catus receptor tyrosine kinase HER2 gene"
+                  "Mouse CD19 gene,5 'end"
+             ]
+          },
+          "length in bp": {
+             "type": "string",
+             "description": "Length of gene in base pairs",
+             "example": [
+                   "2093"
+                   "662"
+             ]
+          },
+         "accession number": {
+            "type": "string",
+            "description": "The unique identifier for a sequence record",
+            "example": [
+                   "AY685128"
+                   "M84372"
+             ]
+}
