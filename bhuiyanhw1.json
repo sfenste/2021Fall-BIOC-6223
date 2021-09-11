@@ -1,0 +1,23 @@
+{
+	"Gene Data": [{
+		"Gene1": "CO1",
+		"Length": 1048,
+		"Accession Number": "MN017772.1"
+	}, {
+		"Gene2": "FGFR3",
+		"Length": 4307,
+		"Accession Number": "NM_001163213.2"
+	}, {
+		"Gene3": "HERC2",
+		"Length": 5243,
+		"Accession Number": "M_043242594.1"
+	}, {
+		"Gene4": "HTT",
+		"Length": 11081,
+		"Accession number": "XM_043235681.1"
+	}, {
+		"Gene5": "GUCY1A3",
+		"Length": 2917,
+		"Accession Number": "XM_040670674.1"
+	}]
+}
