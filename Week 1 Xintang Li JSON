@@ -1,0 +1,23 @@
+{
+	"Gene data": [{
+		"name": "Felis catus receptor tyrosine kinase HER2 gene",
+		"length in bp": "2093",
+		" accession number": "AY685128"
+	}, {
+		"name": "Mouse CD19 gene,5 'end",
+		"length in bp ": "662",
+		" accession number": "M84372"
+	}, {
+		"name ": "Homo sapiens CD22 gene variation 13 ",
+		"length in bp ": "420 ",
+		"accession number ": "AB013007 "
+	}, {
+		"name ": "Mus spretus strain SEG / Pas PD - L1(Cd274)",
+		"length in bp ": "873 ",
+		"accession number ": "GQ904197 "
+	}, {
+		"name": "H.sapiens carcinoembryonic antigen gene",
+		"length in bp": "11288",
+		"accession number": "Z21818"
+	}]
+}
