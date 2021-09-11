@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/ubhuiyan/2021Fall-BIOC-6223/main/bhuiyanschema1",
+  "description": "Listed genes along with their accession number and length in base pairs",
+  "type": "object",
+  "properties": {
+    "Gene Data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Gene1": {
+              "type": "string",
+              "description": "Identifier for the first gene CO1"
+            },
+            "Length": {
+              "type": "integer",
+              "descrioption": "the legnth of CO1 in base pairs"
+            },
+            "Accession Number": {
+              "type": "string",
+              "description": "accession number for CO1 gene found on NCBI"
+            }
+          },
+          "required": [
+            "Gene1",
+            "Length",
+            "Accession Number"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Gene2": {
+              "type": "string",
+              "description": "Identifier for the second gene FGFR3"
+            },
+            "Length": {
+              "type": "integer",
+              "description": "Length of FGFR3 in base pairs"
+            },
+            "Accession Number": {
+              "type": "string",
+              "description": "Accession number of FGFR3 as found on NCBI"
+            }
+          },
+          "required": [
+            "Gene2",
+            "Length",
+            "Accession Number"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Gene3": {
+              "type": "string",
+              "description": "Identifier for the third gene HERC2"
+            },
+            "Length": {
+              "type": "integer",
+              "description": "length of HERC2 in base pairs"
+            },
+            "Accession Number": {
+              "type": "string",
+              "description": "accession number of HERC2 as found on NCBI"
+            }
+          },
+          "required": [
+            "Gene3",
+            "Length",
+            "Accession Number"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Gene4": {
+              "type": "string",
+              "description": "Fourth identifier for the HTT gene"
+            },
+            "Length": {
+              "type": "integer",
+              "description": "length for HTT gene in base pairs"
+            },
+            "Accession number": {
+              "type": "string",
+              "description": "accession number for HTT gene as found on NCBI"
+            }
+          },
+          "required": [
+            "Gene4",
+            "Length",
+            "Accession number"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Gene5": {
+              "type": "string",
+              "description": "Fifth identifier for the GUCY1A3 gene"
+            },
+            "Length": {
+              "type": "integer",
+              "description": "Length of GUCY1A3 gene in base pairs"
+            },
+            "Accession Number": {
+              "type": "string",
+              "description": "Accession number for GUCY1A3 gene as found on NCBI"
+            }
+          },
+          "required": [
+            "Gene5",
+            "Length",
+            "Accession Number"
+          ]
+        }
+      ]
+    }
+  }
+}
