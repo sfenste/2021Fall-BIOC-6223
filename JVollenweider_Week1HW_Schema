@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/JordanVollenweider/2021Fall-BIOC-6223/be27361ccbcbb47593677af136933944dfe94205/JVollenweider_Week1HW_Schema",
+  "type": "array",
+  "title": "Five genes from NCBI nucleotide database",
+  "description": "Pick five genes from the database and identify the name, base pair number and accession number",
+  "required": [
+    "name",
+    "length",
+    "accession"
+  ],
+  "properties":{
+  "name":{
+    "type": "object",
+        "description": "list of gene names found in NCBI nucleotide database",
+        "items": {
+        "type": "string",
+            "description": "name of genes one through five",
+            "examples": [
+                  "BRCA1",
+                  "IFNA17",
+                  "CALCA",
+                  "INSIG1",
+                  "GTF3A"
+  ],
+  "properties":{
+    "length":{
+    "type": "array",
+        "description": "list of base pair numbers for each gene found in NCBI nucleotide database",
+        "items":{
+        "type": "string",
+            "description": "base pair length for genes one through five",
+            "examples": [
+                20,
+                753,
+                982,
+                2908,
+                1443
+  ],
+  "properties":{
+  "accession":{
+    "type": "array",
+        "description": "list of accession numbers for each gene found in NCBI nucleotide database",
+        "items":{
+        "type": "string",
+            "description": "accession number for genes one through five",
+            "examples": [
+                "HW808243",
+                "M38289",
+                "NM_001033953",
+                "NM_005542",
+                "NM_002097"
+              ],
+        },
+        },
+    },
+  },
+        },
+    },
+  },
+        },
+    },
+  }
