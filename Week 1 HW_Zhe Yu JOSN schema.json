@@ -1,29 +1,39 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"$id": "https://raw.githubusercontent.com/Zhe-Yu-2021/2021Fall-BIOC-6223/main/Week%201%20HW_Zhe%20Yu%20JOSN%20schema.json",
-	"type": "array",
+	"type": "object",
 	"title": "angiotensin related gene",
 	"description": "human genes related to the angiotensin peptide, including the gene of the original peptide, the enzymes needed for peptide clipping and the peptide receptors",
-	"required": [
-		"name",
-		"length in bp",
-		"accession number"
-	],
 	"properties": {
-		"name": {
-			"type": "string",
-			"description": "name of the gene",
-			"example": "Human angiotensin II type 2 receptor"
-		},
-		"length in bp": {
-			"type": "number",
-			"description": "the length of the gene measured in bp ",
-			"example": "5293 "
-		},
-		"accession number": {
-			"type": "string",
-			"description": "the official number provided by NCBI that can be used to access the gene",
-			"example": "U20860"
+		"genes": {
+			"type": "array",
+			"description": "the main target described in the data file",
+			"required": [
+				"name",
+				"length in bp",
+				"accession number"
+			],
+			"items": {
+				"type": "object",
+				"description": "the three main information about the gene",
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "name of the gene",
+						"example": "Human angiotensin II type 2 receptor"
+					},
+					"length in bp": {
+						"type": "number",
+						"description": "the length of the gene measured in bp ",
+						"example": 5293
+					},
+					"accession number": {
+						"type": "string",
+						"description": "the official number provided by NCBI that can be used to access the gene",
+						"example": "U20860"
+					}
+				}
+			}
 		}
 	}
 }
