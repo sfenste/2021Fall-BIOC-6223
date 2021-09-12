@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+<h2> Sample Virus Pipeline</h2>
+  <h3>The following is a condensed example that might be taken from a methods section.</h3>
+  <h3>Note that a "dict" file will have a mediatype of "application/octet-stream" (the default value). Others are easy to find.</h3>
+<br>
+<br>
+   <table style="width:900px">
+     <tr>
+       <td>
+         This pipeline to identify baseline single nucleotide polymorphisms (<a href="http://www.sequenceontology.org/miso/current_release/term/SO:0000694">SNPs</a>), (<a href="http://www.sequenceontology.org/browser/current_release/term/SO:0000667">insertions</a>), and (<a href="http://www.sequenceontology.org/browser/current_release/term/SO:0000045">deletions</a>) that correlate with reduced antiviral drug efficacy in (<a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=31646&lvl=3&lin=f&keep=1&srchmode=1&unlock">Hepatitis C virus subtype 1</a>) works by first aligning viral reads to a reference genome. Choice of reference genome is critical to identifying potential drug-resistant mutations. Once small read sequences are mapped, a variant map is produced by identifying SNPs. The SNP map can be compared between individuals with or without drug resistance to <a href="https://pubchem.ncbi.nlm.nih.gov/compound/67505836">ledipasvir</a> to identify possible causal mutations."
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <br>
+         <br>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       All data is stored on a <a href="https://hive2.biochemistry.gwu.edu/dna.cgi?cmd=login">HIVE instance on a linux server</a>. Starting with <a href="https://hive2.biochemistry.gwu.edu/dna.cgi?cmd=objFile&ids=14778">read file 1</a> and <a href="https://hive2.biochemistry.gwu.edu/dna.cgi?cmd=objFile&ids=14775">reference file 2</a>, align the input file 1 to input file 2 using the Hexagon tool, using a minimum match length of 75, and allowing for 15 percent mismatches. This will produce several files. Take the <a href="https://hive2.biochemistry.gwu.edu/dna.cgi?cmd=objFile&ids=14781">alignment file</a> and use Heptagon to call SNPs, setting "collapseRpts" to "false," "cutEnds" to "do not cut," and "supportedDeletions" to "true." Heptagon produces three files, all_indels.dict, FreqProfile.csv, and SNPprofile. All of the files are appended to the base URL https://hive2.biochemistry.gwu.edu/dna.cgi?cmd=objFile&ids=14782&filename=all_indels.dict.
+       </td>
+     </tr>
+  </table>
+<br>
+<br>
+<img src="https://www.biocomputeobject.org/images/Pipeline01.png" width="900">
+</body>
+</html>
