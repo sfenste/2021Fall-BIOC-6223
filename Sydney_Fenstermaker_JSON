@@ -1,0 +1,23 @@
+{
+  "Gene Data":
+  [{
+      "name": "Arms2",
+      "length in bp":"2700",
+      "accession number":"NM_001099667.3"
+    }, {
+      "name": "BRCA1",
+      "length in bp":"81070",
+      "accession number":"NM_007297.4"
+    }, {
+      "name": "SHOX",
+      "length in bp":"20794",
+      "accession number":"NM_000451.4"
+    }, {
+      "name": "RDH11",
+      "length in bp":"18965",
+      "accession number":"NM_016026.4"
+    }, {
+      "name": "WWOX",
+      "length in bp":"1113014",
+      "accession number":"NM_016373.4"}
+ ]}
