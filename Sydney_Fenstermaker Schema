@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id" : "https://raw.githubusercontent.com/sfenste/2021Fall-BIOC-6223/patch-1/Sydney_Fenstermaker_JSON",
+  "title": "Gene Data",
+  "type": "object",
+  "description": "Five genes with their corresponding names, lengths in terms of base pairs, and accession numbers",
+  "required": [
+	"name", 
+	"length", 
+	"accession_number"
+],
+  "properties": {
+    "Gene Data": {
+      "type": "array",
+      "description": "Five genes with their corresponding names, lengths in terms of base pairs, and accession numbers",
+    
+  
+    	"name": {
+          "type":"string",
+            "description":"The name of the corresponding gene",
+              "list": [
+                "Arms2",
+                "BRCA1",
+                "SHOX",
+                "RDH11",
+                "WWPX"
+              ]
+        },
+          "length": {
+            "type":"string",
+              "description":"The length of the gene in base pairs",
+                "list": [
+                  "2700",
+                  "81070",
+                  "20794",
+                  "18965",
+                  "1113014"
+                  ]
+          },
+            "accession_number": {
+              "type":"string",
+                "description":"The corresponding accession number for the gene in NIH NCBI",
+                  "list": [
+                    "NM_001099667.3",
+                    "NM_007297.4",
+                    "NM_000451.4",
+                    "NM_016026.4",
+                    "NM_016373.4"
+                    ]
+            }
+    }
+  }
+}
